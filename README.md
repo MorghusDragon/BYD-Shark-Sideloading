@@ -65,6 +65,7 @@ Once installed, we need to grant Aurora Store extra permissions so it functions 
 ```
 adb shell appops set com.aurora.store REQUEST_INSTALL_PACKAGES allow
 adb shell appops set com.aurora.store WRITE_EXTERNAL_STORAGE allow
+adb shell appops set com.aurora.store MANAGE_EXTERNAL_STORAGE allow
 ```
 
 Now you can open the Aurora Store in your apps menu on the car.
